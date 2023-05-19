@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.1...1.0.2) (2023-05-19)
+
+
+### Bug Fixes
+
+* the package name ([5e92287](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/5e9228702f144b01c50c94fcbc64c3fd139fb1ef))
+* the package prefix name ([abe2053](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/abe2053a4c081208d8e0c416435150e053445443))
+
 ## [1.0.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.0...1.0.1) (2023-05-19)
 
 
