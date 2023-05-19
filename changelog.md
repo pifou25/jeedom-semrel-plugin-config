@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.0...1.0.1) (2023-05-19)
+
+
+### Bug Fixes
+
+* set publish npm to true. ([7c8474a](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/7c8474af2f050bf595f34a221f5d36989b1071f6))
+
 # 1.0.0 (2023-05-19)
 
 
