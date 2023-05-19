@@ -1,5 +1,5 @@
 {
-    "name": "pifou25/jeedom-semrel-plugin-config",
+    "name": "jeedom-semrel-plugin-config",
     "description": "semantic-release shareable config to publish Jeedom Beta plugins",
     "version": "0.0.0-development",
     "main": "index.js",
