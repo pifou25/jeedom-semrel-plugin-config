@@ -13,7 +13,7 @@ with the `action-for-semancit-release` using the `extends` keyword:
 
 https://github.com/marketplace/actions/action-for-semantic-release#extends
 
-Example of command :
+Example of command with `master` or `stable` configuration :
 ```
 npx --package=@semantic-release/changelog@6 \
     --package=@semantic-release/exec@6 \
@@ -26,7 +26,7 @@ Available tags are `latest` (optional as a default tag) for the master / stable 
  and `beta` or `dev` for beta configuration.
 
  Example of command for beta :
- 
+
 ```
 npx --package=@semantic-release/changelog@6 \
     --package=@semantic-release/exec@6 \
