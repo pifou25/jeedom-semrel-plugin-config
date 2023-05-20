@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.2...1.0.3) (2023-05-20)
+
+
+### Bug Fixes
+
+* remove duplicate github plugin ([b3677a8](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/b3677a83c571ecb92f5521ffb13048016356f6bf))
+
 ## [1.0.2](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.1...1.0.2) (2023-05-19)
 
 
