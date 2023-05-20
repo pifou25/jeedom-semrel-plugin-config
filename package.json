@@ -37,8 +37,14 @@
     "release": {
         "branches": [
             "master",
-            "dev",
-            "beta"
+            {
+              "name": "dev",
+              "prerelease": true
+            },
+            {
+              "name": "beta",
+              "prerelease": true
+            }
         ],
         "tagFormat": "${version}",
         "plugins": [
