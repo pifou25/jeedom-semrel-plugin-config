@@ -31,7 +31,7 @@ module.exports = {
     [
         "@semantic-release/exec",
         {
-            "prepare": "sed -i 's/\"pluginVersion\": \".*\"/\"pluginVersion\": \"${nextRelease.version}\"/' plugin_info/info.json"
+            "prepareCmd": "sed -i 's/\"pluginVersion\": \".*\"/\"pluginVersion\": \"${nextRelease.version}\"/' plugin_info/info.json"
         }
     ],
     [
