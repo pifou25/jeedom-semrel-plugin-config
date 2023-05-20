@@ -21,3 +21,6 @@ npx --package=@semantic-release/changelog@6 \
     --package=jeedom-semrel-plugin-config@1 \
     semantic-release@21 --extends=jeedom-semrel-plugin-config
 ```
+
+Available tags are `latest` (optional as a default tag) for the master / stable branch;
+ and `beta` or dev for beta configuration.
