@@ -23,4 +23,4 @@ npx --package=@semantic-release/changelog@6 \
 ```
 
 Available tags are `latest` (optional as a default tag) for the master / stable branch;
- and `beta` or dev for beta configuration.
+ and `beta` or `dev` for beta configuration.
