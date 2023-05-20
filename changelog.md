@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.6...1.1.0) (2023-05-20)
+
+
+### Bug Fixes
+
+* prepareCmd key for the exec plugin ([80e1352](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/80e135296be61093b5ff455650ea1abd4b44af16))
+
+
+### Features
+
+* add beta release with dev branch ([86da64c](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/86da64c09698187205b3689f159c87ebc554632d))
+* add beta tag for npm release ([643c07a](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/643c07a12a0595657ef649733f84100b664b501d))
+* add beta tag for the npm package ([aa20fa7](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/aa20fa773b61190e41188139a126085b507faa54))
+* set dev branch as release ([c7840dd](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/c7840dde9543794f7d62f5bfc821a19646185008))
+
 # [1.1.0-dev.2](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.0-dev.1...1.1.0-dev.2) (2023-05-20)
 
 
