@@ -1,3 +1,10 @@
+# [1.1.0-dev.2](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.0-dev.1...1.1.0-dev.2) (2023-05-20)
+
+
+### Features
+
+* add beta tag for npm release ([643c07a](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/643c07a12a0595657ef649733f84100b664b501d))
+
 # [1.1.0-dev.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.6...1.1.0-dev.1) (2023-05-20)
 
 
