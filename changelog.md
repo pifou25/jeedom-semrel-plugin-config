@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.4...1.0.5) (2023-05-20)
+
+
+### Bug Fixes
+
+* replace google plugin by exec and sed ([67b4b3c](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/67b4b3cc20889f19513c6064e5e432c1cb44940e))
+
 ## [1.0.4](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.3...1.0.4) (2023-05-20)
 
 
