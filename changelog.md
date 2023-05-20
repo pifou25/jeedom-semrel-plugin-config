@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.3...1.0.4) (2023-05-20)
+
+
+### Bug Fixes
+
+* add options and the dev prerelease branch ([6ef0ec2](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/6ef0ec2a93d67988a373b19673834e9675e88c48))
+
 ## [1.0.3](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.2...1.0.3) (2023-05-20)
 
 
