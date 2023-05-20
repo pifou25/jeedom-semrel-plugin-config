@@ -15,5 +15,9 @@ https://github.com/marketplace/actions/action-for-semantic-release#extends
 
 Example of command:
 ```
-npx --package=@semantic-release/changelog --package=@semantic-release/exec --package=@semantic-release/git --extends=jeedom-semrel-plugin-config  semantic-release
+npx --package=@semantic-release/changelog@6 \
+    --package=@semantic-release/exec@6 \
+    --package=@semantic-release/git@10 \
+    --package=jeedom-semrel-plugin-config@1 \
+    semantic-release@21 --extends=jeedom-semrel-plugin-config
 ```

@@ -1,7 +1,7 @@
 {
-    "name": "jeedom-semrel-plugin-config",
+    "name": "jeedom-semrel-plugin-config-beta",
     "description": "semantic-release shareable config to publish Jeedom Beta plugins",
-    "version": "0.0.0-development",
+    "version": "1.0.0",
     "main": "index.js",
     "directories": {
         "doc": "docs",
@@ -20,16 +20,16 @@
         "plugin",
         "lgthinq",
         "home",
-        "automation"
+        "automation",
+        "semantic-release"
     ],
     "author": "pifou25@github",
-    "license": "SEE LICENSE IN LICENSE",
+    "license": "MIT License",
     "bugs": {
         "url": "https://github.com/pifou25/jeedom-semrel-plugin-config/issues"
     },
     "homepage": "https://github.com/pifou25/jeedom-semrel-plugin-config#readme",
     "devDependencies": {
-        "@google/semantic-release-replace-plugin": "^1.2.0",
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
         "semantic-release": "^19.0.5"
