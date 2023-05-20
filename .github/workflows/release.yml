@@ -23,4 +23,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_BOT_NPM_TOKEN }}
+          # list of available npm_config parameters:
+          # https://docs.npmjs.com/cli/v9/using-npm/config#tag
           NPM_CONFIG_TAG: beta
