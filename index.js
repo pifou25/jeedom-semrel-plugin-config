@@ -27,12 +27,6 @@ module.exports = {
         "changelogFile": "docs/fr_FR/changelog_beta.md"
       }
     ],
-    [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false
-      }
-    ],
     "@semantic-release/github",
     [
         "@semantic-release/exec",
