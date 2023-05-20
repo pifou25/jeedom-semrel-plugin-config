@@ -8,6 +8,19 @@
 
 ### Features
 
+* :art: add commitlint ([1ab452c](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/1ab452cd9c85da3446c9b24a0fd54a179a630259))
+* latest tag for the master stable branch ([0bf52b7](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/0bf52b7ad04127f3dd2b52820fea7a2b2ef26f88))
+
+# [1.1.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.7...1.1.0) (2023-05-20)
+
+
+### Bug Fixes
+
+* readme ([8aedba7](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/8aedba75f8248a8a8db6366801b99e581dfc08ea))
+
+
+### Features
+
 * latest tag for the master stable branch ([0bf52b7](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/0bf52b7ad04127f3dd2b52820fea7a2b2ef26f88))
 
 # [1.1.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.7...1.1.0) (2023-05-20)
