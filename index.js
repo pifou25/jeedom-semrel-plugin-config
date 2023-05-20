@@ -4,6 +4,20 @@
  * with changelog genetaror, pluginVersion replacement
  */
 module.exports = {
+  branches: [
+    "master",
+    {
+      name: "dev",
+      prerelease: true
+    },
+    {
+      name: "test",
+      prerelease: true
+    }
+  ],
+  tagFormat: "${version}",
+  dryRun: false,
+  debug: false,
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
