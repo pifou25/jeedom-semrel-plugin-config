@@ -1,7 +1,7 @@
 {
-    "name": "jeedom-semrel-plugin-config-beta",
-    "description": "semantic-release shareable config to publish Jeedom Beta plugins",
-    "version": "1.0.0",
+    "name": "jeedom-semrel-plugin-config",
+    "description": "semantic-release shareable config to publish Jeedom plugins",
+    "version": "1.0.1",
     "main": "index.js",
     "directories": {
         "doc": "docs",
