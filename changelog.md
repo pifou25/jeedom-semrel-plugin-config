@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.5...1.0.6) (2023-05-20)
+
+
+### Bug Fixes
+
+* remove npm plugin ([85637a4](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/85637a4ae879550400292105a9aa5333fa16886c))
+
 ## [1.0.5](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.4...1.0.5) (2023-05-20)
 
 
