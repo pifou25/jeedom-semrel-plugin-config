@@ -7,6 +7,39 @@ name: Release
       - beta
 
 jobs:
+
+  # dry-run to get next release version
+  # using this plugin: https://github.com/felipecrs/semantic-release-export-data
+  get-next-version:
+    runs-on: ubuntu-latest
+    # permission required for Semantic-Release step to push contents, even for dry-run
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm ci
+      - run: npx semantic-release --dry-run
+        id: get-next-version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          echo "published: '${{ steps.get-next-version.outputs.new-release-published }}'"
+          echo "release: '${{ steps.get-next-version.outputs.new-release-version }}'"
+    outputs:
+      new-release-published: ${{ steps.get-next-version.outputs.new-release-published }}
+      new-release-version: ${{ steps.get-next-version.outputs.new-release-version }}
+  
+  build:
+    runs-on: ubuntu-latest
+    needs: get-next-version
+    if: needs.get-next-version.outputs.new-release-published == 'true'
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "The new release version is ${{ needs.get-next-version.outputs.new-release-version }}"
+
   release:
     name: release
     runs-on: ubuntu-latest

@@ -35,17 +35,15 @@
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
         "husky": "^8.0.3",
-        "semantic-release": "^19.0.5"
+        "semantic-release": "^19.0.5",
+        "semantic-release-export-data": "^1.0.1"
     },
     "release": {
         "branches": [
             "master",
+            "beta",
             {
                 "name": "dev",
-                "prerelease": true
-            },
-            {
-                "name": "beta",
                 "prerelease": true
             }
         ],
@@ -54,6 +52,7 @@
             "@semantic-release/commit-analyzer",
             "@semantic-release/release-notes-generator",
             "@semantic-release/npm",
+            "semantic-release-export-data",
             [
                 "@semantic-release/changelog",
                 {
