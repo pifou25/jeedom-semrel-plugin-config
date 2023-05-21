@@ -1,3 +1,10 @@
+# [1.2.0-dev.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.1...1.2.0-dev.1) (2023-05-21)
+
+
+### Features
+
+* :tada: add the export-data plugin ([41be984](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/41be984f0a63640b2f0a4ce8dcd9ce905c0fd4e8))
+
 ## [1.1.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.0...1.1.1) (2023-05-21)
 
 
