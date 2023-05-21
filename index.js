@@ -24,7 +24,7 @@ module.exports = {
     [
       "@semantic-release/changelog",
       {
-        "changelogFile": "docs/fr_FR/changelog_beta.md"
+        "changelogFile": "docs/fr_FR/changelog.md"
       }
     ],
     "@semantic-release/github",
@@ -38,7 +38,7 @@ module.exports = {
       "@semantic-release/git",
       {
         message: `chore(release): \${nextRelease.version} [skip ci]`,
-        assets: ["plugin_info/info.json", "docs/fr_FR/changelog_beta.md"],
+        assets: ["plugin_info/info.json", "docs/fr_FR/changelog.md"],
       },
     ],
   ],
