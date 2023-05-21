@@ -2,12 +2,14 @@ name: Test
 "on":
   push:
     branches:
+      - none
       # - master
-      - renovate/**
-  pull_request:
-    types:
-      - opened
-      - synchronize
+      #- renovate/**
+  #pull_request:
+    #types:
+      # - opened
+      # - synchronize
+
 jobs:
   test_matrix:
     strategy:
