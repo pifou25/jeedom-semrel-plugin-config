@@ -1,3 +1,10 @@
+# [1.1.0-beta.3](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.0-beta.2...1.1.0-beta.3) (2023-05-21)
+
+
+### Bug Fixes
+
+* :bug: Add write-permission for dry-run step ([c6024ce](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/c6024ced214385be01c873ca254c0a9c72387e74))
+
 # [1.1.0-beta.2](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.0-beta.1...1.1.0-beta.2) (2023-05-21)
 
 
