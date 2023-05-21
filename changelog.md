@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.0...1.1.1) (2023-05-21)
+
+
+### Reverts
+
+* Revert "ci: :rocket: new branch for beta configuration" ([7a3d38e](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/7a3d38e8f36a4356c047f624997d31640bf58429))
+
 # [1.1.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.7...1.1.0) (2023-05-21)
 
 
