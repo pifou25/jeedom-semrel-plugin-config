@@ -1,3 +1,10 @@
+# [1.1.0-beta.2](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.0-beta.1...1.1.0-beta.2) (2023-05-21)
+
+
+### Features
+
+* :sparkles: Add the next released version in workflow summary ([abd9e2e](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/abd9e2eb6faafef36aa44b3178275a3e45d39d13))
+
 ## [1.0.7](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.0.6...1.0.7) (2023-05-20)
 
 ### Bug Fixes
