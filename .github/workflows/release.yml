@@ -43,6 +43,7 @@ jobs:
   release:
     name: release
     runs-on: ubuntu-latest
+    needs: get-next-version
     # permission required for Semantic-Release step to push contents
     permissions:
       contents: write
