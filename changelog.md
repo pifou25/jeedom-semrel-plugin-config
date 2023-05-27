@@ -1,3 +1,17 @@
+# [1.2.0-dev.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.1...1.2.0-dev.1) (2023-05-27)
+
+
+### Bug Fixes
+
+* :bug: add npm token for dry-run step ([cb17520](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/cb17520a8c9d9873f3cefbb06f87c12b74b03cc2))
+* :zap: do not require the dry-run published boolean for release step ([f14ff0e](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/f14ff0e4f1c455e472698931abc788405fca6261))
+* :zap: rely build step to the dry-run ([6b9d007](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/6b9d0076a6aee8a438183a2d298786f37fdbf10f))
+
+
+### Features
+
+* :tada: add the export-data plugin ([41be984](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/41be984f0a63640b2f0a4ce8dcd9ce905c0fd4e8))
+
 # [1.2.0-dev.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.1...1.2.0-dev.1) (2023-05-21)
 
 
