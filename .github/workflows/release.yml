@@ -25,6 +25,7 @@ jobs:
         id: get-next-version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_BOT_NPM_TOKEN }}
       - run: |
           echo "published: '${{ steps.get-next-version.outputs.new-release-published }}'"
           echo "release: '${{ steps.get-next-version.outputs.new-release-version }}'"
@@ -43,6 +44,8 @@ jobs:
   release:
     name: release
     runs-on: ubuntu-latest
+    needs: get-next-version
+    if: needs.get-next-version.outputs.new-release-published == 'true'
     # permission required for Semantic-Release step to push contents
     permissions:
       contents: write
