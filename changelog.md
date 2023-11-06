@@ -1,3 +1,10 @@
+# [1.3.0-dev.2](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.3.0-dev.1...1.3.0-dev.2) (2023-11-06)
+
+
+### Bug Fixes
+
+* repeate NPM_TOKEN for get-next-version ([199b7fe](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/199b7feeab6e83ff5cdd6c104b9568876789b3d7))
+
 # [1.3.0-dev.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.2.0...1.3.0-dev.1) (2023-11-06)
 
 
