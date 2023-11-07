@@ -14,14 +14,14 @@ jobs:
     runs-on: ubuntu-latest
     # permission required for Semantic-Release step to push contents, even for dry-run
     permissions:
-      contents: write
+      contents: read
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: 16
       - run: npm ci
-      - run: npx semantic-release --dry-run
+      - run: npx semantic-release --dry-run --no-ci
         id: get-next-version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
