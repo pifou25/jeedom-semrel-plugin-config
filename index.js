@@ -6,6 +6,17 @@
 module.exports = {
   branches: [
     "master",
+    "netx",
+    "netx-major",
+    "+([0-9])?(.{+([0-9]),x}).x",
+    {
+      name: "beta",
+      prerelease: true
+    },
+    {
+      name: "alpha",
+      prerelease: true
+    },
     {
       name: "dev",
       prerelease: true

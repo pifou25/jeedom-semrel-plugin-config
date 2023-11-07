@@ -1,3 +1,32 @@
+# [1.3.0-dev.3](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.3.0-dev.2...1.3.0-dev.3) (2023-11-07)
+
+
+### Bug Fixes
+
+* dry-run with no-ci arg without write perm ([2040c5e](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/2040c5e107d6d3b8f2563f4f647d2c3354f60049))
+* remove redundat step from workflow ([dbe4847](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/dbe4847908c1f7ce51ff42c9a408082c73329acc))
+* update nodeJS to lts in prerelease ([9c96cfd](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/9c96cfdcbafb54c161dafd1b237d31a4210df830))
+
+
+### Reverts
+
+* write perm for the dry-run step ([c7b312a](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/c7b312ab195758fd5f4bb98a2bf61457ba4e6ed9))
+
+# [1.3.0-dev.2](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.3.0-dev.1...1.3.0-dev.2) (2023-11-06)
+
+
+### Bug Fixes
+
+* repeate NPM_TOKEN for get-next-version ([199b7fe](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/199b7feeab6e83ff5cdd6c104b9568876789b3d7))
+
+# [1.3.0-dev.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.2.0...1.3.0-dev.1) (2023-11-06)
+
+
+### Features
+
+* add dependabot ([bb295e1](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/bb295e160556eb80d018984d2c5de0332cb4868d))
+* add more branch releases possibilities ([b3c2f0f](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/b3c2f0f859db11575df4b0af4908506aa5e5621e))
+
 # [1.2.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.1.1...1.2.0) (2023-05-24)
 
 
