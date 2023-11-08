@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.3.0...1.4.0) (2023-11-08)
+
+
+### Features
+
+* add workflow to check commits ([#12](https://github.com/pifou25/jeedom-semrel-plugin-config/issues/12)) ([e026c83](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/e026c835a4978f09d4e480e43662e43a9a293172))
+
 # [1.3.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.2.0...1.3.0) (2023-11-08)
 
 
