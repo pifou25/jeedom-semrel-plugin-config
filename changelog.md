@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.2.0...1.3.0) (2023-11-08)
+
+
+### Features
+
+* add dependabot and more branches releases ([#4](https://github.com/pifou25/jeedom-semrel-plugin-config/issues/4)) ([464db8a](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/464db8a3fb0045f073c2342d6281621ef83a05b6))
+
 # [1.3.0-dev.3](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.3.0-dev.2...1.3.0-dev.3) (2023-11-07)
 
 
