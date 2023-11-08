@@ -25,10 +25,10 @@ env:
       ^(Merge .*branch '.+'( of .+)? into|Revert ".+"|(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([^)]+\))?(\!)?: +[^ ])
 
 jobs:
-  main:
+  checkCommits:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         ref: ${{ github.event.pull_request.head.sha }}
 
@@ -88,7 +88,7 @@ jobs:
             commit_hash_short=${commit:0:7}
         
             if [[ ! $commit_title =~ $SEMANTIC_PATTERN ]]; then
-                echo ::error::$commit_hash_short not semantic: "$commit_title"
+                echo commit number ::error::$commit_hash_short is not semantic: '"$commit_title"'
                 exit_code=1
             else
                 echo $commit_hash_short OK: "$commit_title"
