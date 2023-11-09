@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.6.0...1.6.1) (2023-11-09)
+
+
+### Bug Fixes
+
+* the github summary ([61be9b6](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/61be9b643cb7f99a304aaa028b87ad0629568256))
+
 # [1.6.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.5.0...1.6.0) (2023-11-09)
 
 
