@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.5.0...1.6.0) (2023-11-09)
+
+
+### Features
+
+* add published version into vars.env ([fc8bc5a](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/fc8bc5ae6449398b703764261020aeba079ee2ff))
+
 # [1.5.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.4.0...1.5.0) (2023-11-09)
 
 
