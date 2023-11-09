@@ -50,7 +50,7 @@ jobs:
           node-version: lts/*
       - run: |
           echo "The new release version is ${{ needs.get-next-version.outputs.new-release-version }}"
-          echo "New release : ${{ steps.get-next-version.outputs.new-release-version }}" >> $GITHUB_STEP_SUMMARY      - run: npm ci
+          echo "New release : ${{ steps.get-next-version.outputs.new-release-version }}" >> $GITHUB_STEP_SUMMARY
       - run: npm ci
       - run: npx semantic-release
         env:
