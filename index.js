@@ -39,6 +39,7 @@ module.exports = {
       }
     ],
     "@semantic-release/github",
+    "semantic-release-export-data",
     [
         "@semantic-release/exec",
         {
