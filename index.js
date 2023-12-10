@@ -1,4 +1,11 @@
 /**
+ * check environment variable:
+ * - VERSION_NAME = beta for the beta version of the plugin.
+ */
+var branch = ("VERSION_NAME" in process.env) ? process.env.VERSION_NAME : "stable";
+var suffix = (branch === "beta") ? "_beta" : ""
+
+/**
  * Semantic Release shareable config
  * for Jeedom Beta
  * with changelog genetaror, pluginVersion replacement
@@ -35,7 +42,7 @@ module.exports = {
     [
       "@semantic-release/changelog",
       {
-        "changelogFile": "docs/fr_FR/changelog.md"
+        "changelogFile": `docs/fr_FR/changelog${suffix}.md`
       }
     ],
     "@semantic-release/github",
@@ -51,7 +58,7 @@ module.exports = {
       "@semantic-release/git",
       {
         message: `chore(release): \${nextRelease.version} [skip ci]`,
-        assets: ["plugin_info/info.json", "docs/fr_FR/changelog.md"],
+        assets: ["plugin_info/info.json", `docs/fr_FR/changelog${suffix}.md`],
       },
     ],
   ],
