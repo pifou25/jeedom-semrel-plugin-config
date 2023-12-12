@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.6.1...1.7.0) (2023-12-12)
+
+
+### Features
+
+* add branch name variable for the master workflow ([#14](https://github.com/pifou25/jeedom-semrel-plugin-config/issues/14)) ([b7a391d](https://github.com/pifou25/jeedom-semrel-plugin-config/commit/b7a391d8bbb73e84b40d37a491bf8dfdafcb83da))
+
 ## [1.6.1](https://github.com/pifou25/jeedom-semrel-plugin-config/compare/1.6.0...1.6.1) (2023-11-09)
 
 
