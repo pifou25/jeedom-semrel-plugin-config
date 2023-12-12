@@ -14,27 +14,23 @@ with the `action-for-semancit-release` using the `extends` keyword:
 
 https://github.com/marketplace/actions/action-for-semantic-release#extends
 
-### Example of command with `master` or `stable` configuration :
-```
-npx --package=@semantic-release/changelog@6 \
-    --package=@semantic-release/exec@6 \
-    --package=@semantic-release/git@10 \
-    --package=jeedom-semrel-plugin-config@1 \
-    semantic-release@21 --extends=jeedom-semrel-plugin-config
-```
-
-Available tags are `latest` (optional as a default tag) for the master / stable branch;
- and `beta` for beta configuration.
-
-### Example of command for beta :
-
+### Example of command 
 ```
 npx --package=@semantic-release/changelog@6 \
     --package=@semantic-release/exec@6 \
     --package=@semantic-release/git@10 \
     --package=jeedom-semrel-plugin-config@beta \
-    semantic-release@21 --extends=jeedom-semrel-plugin-config
+    --package=semantic-release-export-data@1 \
+    --package=semantic-release@21 \
+    semantic-release --extends=jeedom-semrel-plugin-config
 ```
+
+### Branch name convention
+
+Any branch name means for the main / master / stable version of the plugin. `beta`
+ is for the specific beta branch.
+ The main difference is that the plugin update the `changelog_beta.md` instead of
+ `changelog.md`
 
 ## Without nodeJS
 
@@ -58,6 +54,11 @@ on:
         description: 'Reason'     
         default: 'Manual launch'
 
+env:
+  # branch name, short name, e.g. : stable, master ...
+  # must be beta for the beta plugin version
+  VERSION_NAME: ${{ github.github.ref_name }}
+
 jobs:
   # one single job
   release:
@@ -77,6 +78,7 @@ jobs:
           npx --package=@semantic-release/changelog@6 \
               --package=@semantic-release/exec@6 \
               --package=@semantic-release/git@10 \
+              --package=semantic-release-export-data@1 \
               --package=jeedom-semrel-plugin-config@1 \
               --package=semantic-release@21 \
               semantic-release --extends=jeedom-semrel-plugin-config
@@ -88,6 +90,11 @@ jobs:
         run: |
           echo "New release : ${{ steps.semantic.outputs.new_release_version }}" >> $GITHUB_STEP_SUMMARY
 ```
+
+Example of integration:
+https://github.com/jeedom/workflows/blob/main/.github/workflows/semantic-release.yml
+
+This configuration also generate a `vars.env` file with the new version generated, e.g. : `VERSION=v2.3.4`
 
 ### More options
 
